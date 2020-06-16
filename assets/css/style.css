@@ -1,0 +1,30 @@
+8. After all of your HTML is written, you can begin styling your pages using the `style.css` file you created.
+
+   * Be sure to [validate your html](https://validator.w3.org/#validate_by_input).
+   * Consult the specs below these instructions for advice on styling your CSS files.
+
+   1. Colors _Pro-tip: Use the [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) Chrome extension to find the colors used on web pages._
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+
+/*
+2. Fonts:
+   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
+   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
+
+
+   6. Dimensions:
+   * The entire content and the main section content area is `960px` wide.
+   * Pro-tip: Use the [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn/related?hl=en) extension to measure the size of elements.
+
+   ![Recommended Dimensions](Images/Recommended-Dimensions.png)
+
+   ### Helpful Hints
+
+* Don't forget to look into these concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`.
+*/
