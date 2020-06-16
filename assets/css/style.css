@@ -1,4 +1,4 @@
-8. After all of your HTML is written, you can begin styling your pages using the `style.css` file you created.
+/* 8. After all of your HTML is written, you can begin styling your pages using the `style.css` file you created.
 
    * Be sure to [validate your html](https://validator.w3.org/#validate_by_input).
    * Consult the specs below these instructions for advice on styling your CSS files.
@@ -12,19 +12,42 @@
    * Main content background color: `#ffffff`
    * Main content border color: `#dddddd`
 
-/*
-2. Fonts:
-   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
-   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
-
 
    6. Dimensions:
-   * The entire content and the main section content area is `960px` wide.
    * Pro-tip: Use the [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn/related?hl=en) extension to measure the size of elements.
-
-   ![Recommended Dimensions](Images/Recommended-Dimensions.png)
 
    ### Helpful Hints
 
 * Don't forget to look into these concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`.
 */
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    border-color: #cccccc;
+
+}
+
+.content {
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+h1 {
+    background-color: #4aaaa5;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+.footer {
+    background-color: #666666;
+}
+
