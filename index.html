@@ -10,25 +10,25 @@
    * Try to code the footer in a way that it will always remain at the bottom of the page, no matter how short the content is. A sticky footer tutorial can be found [here](https://css-tricks.com/couple-takes-sticky-footer/). 
 --> 
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
     <head>
-        <meta charset="UTF-8">
         <title>Miriam's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
     
     <body>
+        <header class="navBar">
+            <nav>
+                <h1>Miriam Hidalgo</h1>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
         <div class="content">
-            <div class="main-header">
-                <ul>
-                    <li><h1>Miriam Hidalgo</h1></li>
-                    <a href="index.html"><li>About</li></a>
-                    <a href="portfolio.html"><li>Portfolio</li></a>
-                    <a href="contact.html"><li>Contact</li></a>
-                </ul>
-            </div>
-            
             <h2>About Me</h2>
 
             <img src="./assets/images/Professional.jpg" class="profile-img" alt="Profile Picture">
