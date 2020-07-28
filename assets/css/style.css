@@ -38,17 +38,6 @@ li a {
     text-decoration: none;
 }
 
-img {
-    height: 25%;
-    width: 25%;
-    border-radius: 50%;
-    box-shadow: 10px 10px 10px grey;
-    float: left;
-    margin-top: 10px;
-    margin-left: 320px;
-    margin-right: 18px;
-}
-
 h2 {
     font-weight: bold;
     font-family: sans-serif;
@@ -60,6 +49,22 @@ h2 {
     align-items: center;
 }
 
+img[src*="./assets/images/Professional.jpg"] {
+    height: 25%;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px grey;
+    float: left;
+    margin-top: 10px;
+    margin-left: 320px;
+    margin-right: 18px;
+}
+
+.imgPortfolio {
+    background-color: red;
+    float: right;
+    align-items: center;
+}
 .content {
     margin: 45px 300px 45px 300px;
     padding: 15px 20px 15px 20px;
