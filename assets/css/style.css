@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html body {
+    height: 100%;
+}
+
 body {
     background-color: #ffffff;
     border-color: #dddddd;
@@ -9,6 +13,12 @@ body {
     background-image: url(../images/double-bubble.png);
     font-size: 15px;
     color: black
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 nav {
@@ -34,7 +44,6 @@ li {
 }
 
 li a {
-    color: white;
     text-decoration: none;
 }
 
@@ -42,6 +51,7 @@ h2 {
     font-weight: bold;
     font-family: sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 
 .imgContentDiv {
@@ -49,24 +59,19 @@ h2 {
     align-items: center;
 }
 
-img[src*="./assets/images/Professional.jpg"] {
+.headerImg img {
     height: 25%;
     width: 25%;
     border-radius: 8px;
     box-shadow: 10px 10px 10px grey;
     float: left;
-    margin-top: 10px;
-    margin-left: 320px;
-    margin-right: 18px;
+    margin: 10px 18px 0px 320px;
 }
 
-.imgPortfolio {
-    background-color: red;
-    float: right;
-    align-items: center;
-}
 .content {
-    margin: 45px 300px 45px 300px;
+    height: auto;
+    width: auto;
+    margin: 30px 300px 45px 300px;
     padding: 15px 20px 15px 20px;
     border-radius: 25px;
     box-shadow: 10px 10px 10px 10px #888888;
@@ -76,6 +81,18 @@ img[src*="./assets/images/Professional.jpg"] {
     width: 65%;
 }
 
+.imgRow img {
+    height: 40%;
+    width: 40%;
+    margin: 5% 0% 0% 6%;
+    border: 6px solid rgb(240, 235, 235);
+    border-radius: 8px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px grey;
+}
+
 footer {
     background-color: #DDC5C1;
     height: 70px;
@@ -83,5 +100,6 @@ footer {
     margin-top: 120px;
     padding: 20px 60px 20px 60px;
     box-shadow: 0px 5px 10px 10px #888888;
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
 }
