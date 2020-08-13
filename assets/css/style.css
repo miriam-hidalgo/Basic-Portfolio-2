@@ -92,6 +92,66 @@ header a:hover{
     box-shadow: 0 0 2px 1px grey;
 }
 
+/* Porfolio Page */
+.portfolio {
+    width: 35%;
+    margin: 40px auto 40px auto;
+    padding: 0px;
+    color: #D9D0B8;
+    background-color: #2A4A59;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.portfolio h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.icon {
+    margin: 10px 10px 10px 10px;
+}
+
+.portfolio img:hover {
+    box-shadow: 0 0 2px 1px grey;
+}
+
+/* Contact Page */
+
+.contact {
+    width: 35%;
+    margin: 40px auto 40px auto;
+    padding: 10px 0px 20px 0px;
+    color: #D9D0B8;
+    background-color: #2A4A59;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.contact h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input {
+    margin: 10px 0px 10px 0px;
+}
+
+form {
+    padding: 10px;
+}
+
+button {
+    background-color: #D9D0B8;
+    color: #2A4A59;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+}
+
 /* Footer*/
 footer {
     margin-top: 80px;
